@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+  </header>
+  <div class="container">
+    <nav class="sidebar">
+      <ul>
+        <li><a href="{{ '/docs/Authentication/AuthenticateBySMSStep1.md' | relative_url }}">Authenticate By SMS Step 1</a></li>
+        <li><a href="{{ '/docs/Authentication/AuthenticateBySMSStep2.md' | relative_url }}">Authenticate By SMS Step 2</a></li>
+        <li><a href="{{ '/docs/General/SomeGeneralAPI.md' | relative_url }}">General API</a></li>
+        <li><a href="{{ '/docs/Customer/SomeCustomerAPI.md' | relative_url }}">Customer API</a></li>
+        <li><a href="{{ '/docs/Tickets/SomeTicketAPI.md' | relative_url }}">Tickets API</a></li>
+      </ul>
+    </nav>
+    <main>
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>
