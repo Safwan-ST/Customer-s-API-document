@@ -4,12 +4,12 @@ Welcome to the SayaraTech API documentation. This repository contains detailed d
 
 ## Table of Contents
 
-- [Authentication](Authentication/AuthenticateBySMSStep1.md)
-  - [Authenticate By SMS Step 1](Authentication/AuthenticateBySMSStep1.md)
-  - [Authenticate By SMS Step 2](Authentication/AuthenticateBySMSStep2.md)
-- [General](General/SomeGeneralAPI.md)
-- [Customer](Customer/SomeCustomerAPI.md)
-- [Tickets](Tickets/SomeTicketAPI.md)
+- [Authentication](docs/Authentication/AuthenticateBySMSStep1.md)
+  - [Authenticate By SMS Step 1](docs/Authentication/AuthenticateBySMSStep1.md)
+  - [Authenticate By SMS Step 2](docs/Authentication/AuthenticateBySMSStep2.md)
+- [General](docs/General/SomeGeneralAPI.md)
+- [Customer](docs/Customer/SomeCustomerAPI.md)
+- [Tickets](docs/Tickets/SomeTicketAPI.md)
 
 ## General Notes
 
