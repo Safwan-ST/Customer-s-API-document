@@ -4,8 +4,8 @@ Welcome to the SayaraTech API documentation. This repository contains detailed d
 
 ## Table of Contents
 
-- [Authentication](docs/authentication/AuthenticateBySMSStep1.md)
-  - [Authenticate By SMS Step 1](docs/authentication/AuthenticateBySMSStep1.md)
+- [Authentication](authentication/AuthenticateBySMSStep1.md)
+  - [Authenticate By SMS Step 1](authentication/AuthenticateBySMSStep1.md)
   - [Authenticate By SMS Step 2](docs/authentication/AuthenticateBySMSStep2.md)
 - [General](docs/General/SomeGeneralAPI.md)
 - [Customer](docs/Customer/SomeCustomerAPI.md)
