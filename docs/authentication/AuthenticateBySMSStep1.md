@@ -1,6 +1,6 @@
 ## Authentication Endpoints
 
-### 1. Authenticate By SMS Step 1
+### 1. Authenticate By SMS Step 1 (Test)
 
 **Endpoint**: `POST /api/Auth/Token/AuthenticateBySMSStep1`
 
