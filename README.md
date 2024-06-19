@@ -60,7 +60,6 @@ The Tickets APIs are designed to manage support tickets. These endpoints allow c
 ### Highlights
 - **Ticket Categories**: Fetch available categories for support tickets.
 - **Create Tickets**: Allow customers to submit new support tickets.
-- **Manage Tickets**: List and update existing support tickets.
 
 ---
 
