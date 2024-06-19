@@ -10,7 +10,7 @@ This document outlines the flow for using the Tires Service APIs, including sear
 `GET /api/General/Services/Products/Brands/{id}`
 
 #### Description
-Fetches all the brands for a specified master service, including their IDs, names, and descriptions.
+Fetches all the brands for a specified master service, including their IDs, names, and descriptions. [Full_Details](1-1FindTheBrands.md)
 
 #### Request Parameters
 - `id` (required): The ID of the master service.
@@ -28,7 +28,7 @@ Fetches all the brands for a specified master service, including their IDs, name
 `GET /api/General/Services/Spesifications/List`
 
 #### Description
-Fetches all available specifications for tires.
+Fetches all available specifications for tires. [Full_Details](1-2FindTheSizes.md)
 
 #### Request Parameters
 None
@@ -45,7 +45,7 @@ None
 `GET /api/General/Services/Products/List`
 
 ### Description
-Fetches all products that match the provided filters (brand ID, size ID, or both).
+Fetches all products that match the provided filters (brand ID, size ID, or both). [Full_Details](../2GetTheProducts.md)
 
 ### Request Parameters
 - `brand_id` (optional): The ID of the selected brand.
@@ -65,7 +65,7 @@ Fetches all products that match the provided filters (brand ID, size ID, or both
 `POST /api/General/Services/Request/Providers`
 
 ### Description
-Fetches available providers for the selected product.
+Fetches available providers for the selected product. [Full_Details](../../GetProviders.md)
 
 ### Request Body Parameters
 - `[id]` (required): List of the selected products.
@@ -79,7 +79,7 @@ Fetches available providers for the selected product.
 `POST /api/General/Services/Request/PickScheduleService`
 
 ### Description
-Selects the schedule for the service request if the `allow_appointment` parameter is `true`.
+Selects the schedule for the service request if the `allow_appointment` parameter is `true`. [Full_Details](../../PickScheduele.md)
 
 ### Request Body Parameters
 - Various parameters required for scheduling the service (refer to the specific API documentation).
@@ -93,7 +93,7 @@ Selects the schedule for the service request if the `allow_appointment` paramete
 `POST /api/Customer/Orders/AddNewRequest`
 
 ### Description
-Confirms and creates a new service request.
+Confirms and creates a new service request. [Full_Details](../../customer/Orders/AddNewOrder.md)
 
 ### Request Body Parameters
 - Various parameters required for creating the service request (refer to the specific API documentation).
@@ -118,5 +118,3 @@ Confirms and creates a new service request.
 3. **Retrieve Providers**: Use `POST /api/General/Services/Request/Providers` to get available providers for the selected product.
 4. **Check Appointment Requirement**: If `allow_appointment` is `true`, proceed to pick a schedule using `POST /api/General/Services/Request/PickScheduleService`. Otherwise, go directly to the confirmation page.
 5. **Confirm Service Request**: Use `POST /api/Customer/Orders/AddNewRequest` to confirm and create the service request.
-
-This documentation provides a comprehensive guide to the flow for using the Tires Service APIs. Follow the steps and use the provided endpoints to successfully create and manage service requests.

@@ -1,78 +1,73 @@
-# Documentation
+# 📖 API Documentation
 
-This repository contains documentation for various services and features offered by our system. Below is a detailed listing of the files and directories found in this repository:
+Welcome to the API documentation! This readme provides an overview of the various API endpoints available for our services, categorized into four main folders: **customer**, **general**, **tickets**, and **authentication**. Each section includes detailed information on how to use the APIs, along with examples and important parameters.
 
-## General
+## Table of Contents
+- [Headers Information](#headers-information)
+- [Customer APIs](#customer-apis)
+- [General APIs](#general-apis)
+  - [Simple Services](#simple-services)
+  - [Complex Services](#complex-services)
+- [Tickets APIs](#tickets-apis)
+- [Authentication APIs](#authentication-apis)
 
-- [Cities.md](docs/general/Cities.md): Provides information about different cities supported by our system.
-- [GetServicesAtLocation.md](./docs/General/GetServicesAtLocation.md): Explains how to retrieve available services at a specific location.
-- [AddressTypes.md](./docs/General/AddressTypes.md): Lists the types of addresses used in our system.
-- ...
+---
 
-## Authentication
+## 🚀 Headers Information
 
-- [AuthenticateBySMSStep1.md](docs/authentication/AuthenticateBySMSStep1.md): Explains the first step of the SMS-based authentication process.
-- [AuthenticateBySMSStep2.md](docs/authentication/AuthenticateBySMSStep2.md): Provides instructions for the second step of the SMS-based authentication process.
-- ...
+All requests must include the following headers:
+- `lng`: Language parameter, default is `'ar'`.
+- `accept`: Parameter with the value `'application/json'`.
 
-## Customer
+Additionally, all customer APIs require a bearer token in the header:
+- `authorization`: Parameter with the value `'Bearer {token}'`.
 
-- [UpdateCustomerLocation.md](docs/customer/UpdateCustomerLocation.md): Guides customers on how to update their location information.
-- ...
+---
 
-## General - New Registration
+## 🧑‍💼 Customer APIs
 
-- [NewRegistrationStep1.md](docs/general/NewRegistration/NewRegisterationStep1.md): Guides users through the first step of the new registration process.
-- [NewRegistrationStep2.md](docs/general/NewRegistration/NewRegisterationStep2.md): Provides instructions for the second step of the new registration process.
-- ...
+The Customer APIs are designed to handle various customer-related functionalities, such as managing orders, profiles, and evaluations. These endpoints allow customers to interact with the services offered, book appointments, and provide feedback. Go to customer's APIs [HERE](docs/customer)
 
-## General - Cars
+### Highlights
+- **Orders Management**: Easily create, update, and track orders.
+- **Profile Management**: Update personal information and redeem coupons.
+- **Evaluations**: Provide feedback on services received.
+- **Account Management**: Manage account settings and deletions.
 
-- [CarFuelTypes.md](docs/general/Cars/CarFuelTypes.md): Lists different fuel types used by cars in our system.
-- [CarColors.md](docs/general/Cars/CarColors.md): Provides a comprehensive list of car colors available in our system.
-- [CarModels.md](docs/general/Cars/CarModels.md): Contains information about various car models supported by our system.
-- ...
+---
 
-## General - Simple Services
+## 🌐 General APIs
 
-- [Brands.md](docs/general/SimpleServices/Brands.md): Lists the brands associated with our simple services.
-- [ItemByBrand.md](docs/general/SimpleServices/ItemByBrand.md): Explains how to retrieve items based on their associated brand.
-- [readme.md](docs/general/SimpleServices/readme.md): Provides an overview of the simple services offered by our system.
-- ...
+The General APIs provide access to a variety of services and product-related data. These endpoints are essential for fetching information about available services, products, and providers. They facilitate the process of searching and filtering products based on different criteria. There are two types of services within the General APIs: **Simple Services** and **Complex Services**. Go to General APIs from [HERE](docs/general)
 
-## General - Complex Services
+### Simple Services
+Simple services are straightforward and easy to manage. They involve basic tasks that do not require intricate scheduling or multiple steps. You can find the documentation for simple services [HERE](docs/general/SimpleServices).
 
-- [2GetTheProducts.md](docs/general/ComplexServices/2GetTheProducts.md): Describes the process of retrieving products for complex services.
-- ...
+### Complex Services
+Complex services involve multiple steps and may require additional parameters, such as scheduling appointments or selecting specific providers. For more details on complex services, visit the [complex services documentation](docs/general/ComplexServices).
 
-## Customer - Profile
+### Highlights
+- **Service Information**: Fetch details about various services and products.
+- **Provider Search**: Find available service providers based on specific criteria.
+- **Scheduling**: Manage and pick schedules for services.
 
-- [UpdatePhoneNumber.md](docs/customer/Profile/UpdatePhoneNumber.md): Explains the process of updating the phone number associated with a customer's profile.
-- [DeleteAccount.md](docs/customer/Profile/DeleteAccount.md): Provides instructions for deleting a customer's account.
-- ...
+---
 
-## Customer - Addresses
+## 🎟️ Tickets APIs
 
-- [DeleteAddress.md](docs/customer/Addresses/DeleteAddress.md): Explains how to delete a customer's address from the system.
-- [NewAddress.md](docs/customer/Addresses/NewAddress.md): Guides customers through the process of adding a new address.
-- [GetAddresses.md](docs/customer/Addresses/GetAddresses.md): Describes how to retrieve a customer's addresses from the system.
-- ...
+The Tickets APIs are designed to manage support tickets. These endpoints allow customers to create, list, and manage their support requests efficiently. They ensure that customer issues are tracked and resolved promptly. The full details is [HERE](docs/tickets)
 
-## Customer - Wallet
+### Highlights
+- **Ticket Categories**: Fetch available categories for support tickets.
+- **Create Tickets**: Allow customers to submit new support tickets.
+- **Manage Tickets**: List and update existing support tickets.
 
-- [WalletHistory.md](docs/customer/Wallet/WalletHistory.md): Provides an overview of the transaction history associated with a customer's wallet.
-- [WalletBalance.md](docs/customer/Wallet/WalletBalance.md): Explains how to check the current balance of a customer's wallet.
-- ...
+---
 
-## Customer - Cars
+## 🔐 Authentication APIs
 
-- [UpdateCar.md](docs/customer/Cars/UpdateCar.md): Guides customers on how to update their car information.
-- [AddCar.md](docs/customer/Cars/AddCar.md): Explains the process of adding a new car to a customer's profile.
-- [DeleteCar.md](docs/customer/Cars/DeleteCar.md): Provides instructions for removing a car from a customer's profile.
-- ...
+The Authentication APIs handle user authentication processes, including login, registration, and token management. These endpoints are crucial for ensuring secure access to the services. You can find details [HERE](docs/authentication)
 
-## Customer - Orders
-
-- [PDFInvoice.md](docs/customer/Orders/PDFInvoice.md): Explains how to generate a PDF invoice for a customer's order.
-- [AcceptRequest.md](docs/customer/Orders/Mechanic/AcceptRequest.md): Guides mechanics on accepting a request from a customer.
-- [RejectRequest.md](docs/customer/Orders/Mechanic/RejectRequest.md): Provides instructions for mechanics to reject a request from a customer.
+### Highlights
+- **User Authentication**: Manage login and registration processes.
+- **Token Management**: Handle access and refresh tokens for secure communication.
