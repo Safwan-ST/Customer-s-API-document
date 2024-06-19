@@ -4,7 +4,7 @@ This repository contains documentation for various services and features offered
 
 ## General
 
-- [Cities.md](docs/general/Cities.md citdd): Provides information about different cities supported by our system.
+- [Cities.md](docs/general/Cities.md): Provides information about different cities supported by our system.
 - [GetServicesAtLocation.md](./docs/General/GetServicesAtLocation.md): Explains how to retrieve available services at a specific location.
 - [AddressTypes.md](./docs/General/AddressTypes.md): Lists the types of addresses used in our system.
 - ...
