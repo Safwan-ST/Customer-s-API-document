@@ -22,8 +22,8 @@ This repository contains documentation for various services and features offered
 
 ## General - New Registration
 
-- [NewRegistrationStep1.md](docs/general/NewRegistration/NewRegistrationStep1.md): Guides users through the first step of the new registration process.
-- [NewRegistrationStep2.md](docs/general/NewRegistration/NewRegistrationStep2.md): Provides instructions for the second step of the new registration process.
+- [NewRegistrationStep1.md](docs/general/NewRegistration/NewRegisterationStep1.md): Guides users through the first step of the new registration process.
+- [NewRegistrationStep2.md](docs/general/NewRegistration/NewRegisterationStep2.md): Provides instructions for the second step of the new registration process.
 - ...
 
 ## General - Cars
