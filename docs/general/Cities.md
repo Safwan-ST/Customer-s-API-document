@@ -1,6 +1,6 @@
 ## General Endpoints
 
-### 6. Get Cities
+### Get Cities
 
 **Endpoint**: `GET /api/General/Cities`
 

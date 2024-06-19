@@ -1,6 +1,6 @@
 ## General Endpoints
 
-### 7. Get Cars Vendors List
+### Get Cars Vendors List
 
 **Endpoint**: `GET /api/General/Cars/Vendors`
 

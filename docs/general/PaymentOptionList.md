@@ -1,6 +1,6 @@
 ## General Endpoints
 
-### 4. Get Payments Option List
+### Get Payments Option List
 
 **Endpoint**: `GET /api/General/PyamentsOptionList`
 

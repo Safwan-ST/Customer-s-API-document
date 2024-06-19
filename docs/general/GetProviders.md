@@ -1,6 +1,6 @@
 ## General Endpoints
 
-### 13. Get Service Providers for Requests
+### Get Service Providers for Requests
 
 **Endpoint**: `POST /api/General/Services/Request/Providers`
 

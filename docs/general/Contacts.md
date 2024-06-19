@@ -1,6 +1,6 @@
 ## General Endpoints
 
-### 3. Get Contacts Info
+### Get Contacts Info
 
 **Endpoint**: `GET /api/General/Contacts`
 

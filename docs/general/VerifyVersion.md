@@ -1,6 +1,6 @@
 ## General Endpoints
 
-### 1. Verify Version
+### Verify Version
 
 **Endpoint**: `GET /api/General/App/Customers/VerifyVersion`
 

@@ -1,6 +1,6 @@
 ## General Endpoints
 
-### 12. Validate Coupon
+### Validate Coupon
 
 **Endpoint**: `POST /api/General/Services/Sales/ValidateCoupon`
 

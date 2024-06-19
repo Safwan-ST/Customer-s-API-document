@@ -1,6 +1,6 @@
 ## General Endpoints
 
-### 11. Get Car Model Cylinders
+### Get Car Model Cylinders
 
 **Endpoint**: `GET /api/General/Cars/Models/Cylinder/{id}`
 

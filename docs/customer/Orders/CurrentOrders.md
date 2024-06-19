@@ -1,4 +1,4 @@
-### 15. Get Current Non-Closed Bookings
+### Get Current Non-Closed Bookings
 
 **Endpoint**: `POST /api/Customer/Orders/Current`
 

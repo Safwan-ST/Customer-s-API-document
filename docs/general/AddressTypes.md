@@ -1,6 +1,6 @@
 ## General Endpoints
 
-### 5. Get Address Types
+### Get Address Types
 
 **Endpoint**: `GET /api/General/AddressTypes`
 

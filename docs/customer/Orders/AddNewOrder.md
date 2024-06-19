@@ -1,4 +1,4 @@
-### 21. Add New Order Request
+### Add New Order Request
 
 **Endpoint**: `POST /api/Customer/Orders/AddNewRequest`
 

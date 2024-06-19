@@ -1,6 +1,6 @@
 ## General Endpoints
 
-### 12. Post New Customer Registration Step 1
+### Post New Customer Registration Step 1
 
 **Endpoint**: `POST /api/General/Customers/NewRegistrationStep1`
 

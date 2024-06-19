@@ -1,4 +1,4 @@
-### 6. Update Request with Coupon Code
+### Update Request with Coupon Code
 
 **Endpoint**: `POST /api/Customer/UpdateCouponToRequest`
 

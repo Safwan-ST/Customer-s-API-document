@@ -1,6 +1,6 @@
 ## General Endpoints
 
-### 8. Get All Cars Models
+### Get All Cars Models
 
 **Endpoint**: `GET /api/General/Cars/Models`
 

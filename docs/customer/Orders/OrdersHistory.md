@@ -1,4 +1,4 @@
-### 19. Get List of Paid Orders
+### Get List of Paid Orders
 
 **Endpoint**: `GET /api/Customer/Orders/PaidList`
 

@@ -1,4 +1,4 @@
-### 13. Add New Address
+### Add New Address
 
 **Endpoint**: `POST /api/Customer/NewAddress`
 

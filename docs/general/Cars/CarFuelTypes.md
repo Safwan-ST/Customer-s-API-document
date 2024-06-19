@@ -1,6 +1,6 @@
 ## General Endpoints
 
-### 12. Get Car Fuel Types
+### Get Car Fuel Types
 
 **Endpoint**: `GET /api/General/Cars/FuelTypes`
 
