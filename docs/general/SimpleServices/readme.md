@@ -8,7 +8,7 @@ This document outlines the flow for using various Simple Services APIs, includin
 `GET /api/General/Services/Products/Brands/{id}`
 
 ### Description
-Fetches all the brands for a specified master service, including their IDs, names, and descriptions. [Full_Details](SimpleServices/Brands.md)
+Fetches all the brands for a specified master service, including their IDs, names, and descriptions. [Full_Details](Brands.md)
 
 ### Request Parameters
 - `id` (required): The ID of the master service.
