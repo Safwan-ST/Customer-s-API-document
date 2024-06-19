@@ -3,13 +3,13 @@
 Welcome to the API documentation! This readme provides an overview of the various API endpoints available for our services, categorized into four main folders: **customer**, **general**, **tickets**, and **authentication**. Each section includes detailed information on how to use the APIs, along with examples and important parameters.
 
 ## Table of Contents
-- [Headers Information](#headers-information)
-- [Customer APIs](#customer-apis)
-- [General APIs](#general-apis)
+- [Headers Information](#-headers-information)
+- [Customer APIs](#-customer-apis)
+- [General APIs](#-general-apis)
   - [Simple Services](#simple-services)
   - [Complex Services](#complex-services)
-- [Tickets APIs](#tickets-apis)
-- [Authentication APIs](#authentication-apis)
+- [Tickets APIs](#-tickets-apis)
+- [Authentication APIs](#-authentication-apis)
 
 ---
 
