@@ -26,7 +26,7 @@ Fetches all the brands for a specified master service, including their IDs, name
 `GET /api/General/Services/Products/ItemsByBrand/{id}`
 
 ### Description
-Fetches all items for a specified brand, including their IDs, names, descriptions, and binary images.
+Fetches all items for a specified brand, including their IDs, names, descriptions, and binary images. [Full_Details](ItemByBrand.md)
 
 ### Request Parameters
 - `id` (required): The ID of the brand.
@@ -45,7 +45,7 @@ Fetches all items for a specified brand, including their IDs, names, description
 `POST /api/General/Services/Request/Providers`
 
 ### Description
-Fetches available providers for a selected item. after choosing the provider check if `allow_appointment` is `true`, if true then proceed to pick a schedule using `POST /api/General/Services/Request/PickScheduleService`. Otherwise, go directly to the confirmation page.
+Fetches available providers for a selected item. after choosing the provider check if `allow_appointment` is `true`, if true then proceed to pick a schedule using `POST /api/General/Services/Request/PickScheduleService`. Otherwise, go directly to the confirmation page. [Full_Details](../GetProviders.md)
 
 ### Request Body Parameters
 - `[id]` (required): List of the selected items.
@@ -59,7 +59,7 @@ Fetches available providers for a selected item. after choosing the provider che
 `POST /api/General/Services/Request/PickScheduleService`
 
 ### Description
-Selects the schedule for the service request.
+Selects the schedule for the service request. [Full_Details](../PickScheduele.md)
 
 ### Request Body Parameters
 - Various parameters required for scheduling the service (refer to the specific API documentation).
@@ -73,7 +73,7 @@ Selects the schedule for the service request.
 `POST /api/Customer/Orders/AddNewRequest`
 
 ### Description
-Confirms and creates a new service request.
+Confirms and creates a new service request. [Full_Details](../../customer/Orders/AddNewOrder.md)
 
 ### Request Body Parameters
 - Various parameters required for creating the service request (refer to the specific API documentation).
