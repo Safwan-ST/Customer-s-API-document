@@ -1,7 +1,7 @@
 ### Step 2: Authenticate by SMS (Step 2)
 
-- **Endpoint URL**: `/api/Auth/Token/AuthenticateBySMSStep2`
-- **HTTP Method**: GET
+- **Endpoint URL**: `POST /api/Auth/Token/AuthenticateBySMSStep2`
+
 - **Description**: Completes the authentication process by verifying the SMS code received in Step 1.
 - **Request Parameters**:
   - `mobileno` (query parameter, required): The mobile number of the user.
@@ -9,6 +9,12 @@
   - `smscode` (query parameter, required): The SMS code received on the user's mobile.
   - `lng` (header, optional): Language preference (`ar` for Arabic, `en` for English). Default is `ar`.
 - **Full Test URL**: `https://satc.live/api/Auth/Token/AuthenticateBySMSStep2?mobileno=966548093416&step1id=14817&smscode=3026`
+**Response Parameters**:
+- `status` (boolean): Indicates whether the operation was successful.
+- `message` (string): A message describing the result of the operation.
+- `error` (string): An error message if the operation failed.
+- `Data` (string): Customer's token
+
 - **Response Example**:
     ```json
     {

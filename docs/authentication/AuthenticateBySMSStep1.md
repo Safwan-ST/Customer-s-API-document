@@ -1,6 +1,6 @@
 ## Authentication Endpoints
 
-### Authenticate By SMS Step 1 (Test)
+### Authenticate By SMS (Step 1)
 
 **Endpoint**: `POST /api/Auth/Token/AuthenticateBySMSStep1`
 
@@ -13,6 +13,14 @@ https://satc.live/api/Auth/Token/AuthenticateBySMSStep1?mobileno=966548093416
 - `mobileno` (string): The mobile number of the user.
   - **Example**: `966548093416`
 
+**Response Parameters**:
+- `status` (boolean): Indicates whether the operation was successful.
+- `message` (string): A message describing the result of the operation.
+- `error` (string): An error message if the operation failed.
+- `Data` (object): An object containing the following fields:
+  - `id_step2` (string): The identifier for the second step of authentication.
+  - `smscode` (string): The SMS code sent to the user's mobile number.
+  
 **Response Example**:
 ```json
 {
@@ -25,15 +33,4 @@ https://satc.live/api/Auth/Token/AuthenticateBySMSStep1?mobileno=966548093416
     }
 }
 ```
-**Response Parameters**:
 
-- `status` (boolean): Indicates whether the operation was successful.
-
-- `message` (string): A message describing the result of the operation.
-
-- `error` (string): An error message if the operation failed.
-
-- `Data` (object): An object containing the following fields:
-
-  - `id_step2` (string): The identifier for the second step of authentication.
-  - `smscode` (string): The SMS code sent to the user's mobile number.
