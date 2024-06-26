@@ -3,6 +3,7 @@
 Welcome to the API documentation! This readme provides an overview of the various API endpoints available for our services, categorized into four main folders: **customer**, **general**, **tickets**, and **authentication**. Each section includes detailed information on how to use the APIs, along with examples and important parameters.
 
 ## Table of Contents
+- [Headers Information](#-base-URLs)
 - [Headers Information](#-headers-information)
 - [Customer APIs](#-customer-apis)
 - [General APIs](#-general-apis)
@@ -10,6 +11,14 @@ Welcome to the API documentation! This readme provides an overview of the variou
   - [Complex Services](#complex-services)
 - [Tickets APIs](#-tickets-apis)
 - [Authentication APIs](#-authentication-apis)
+
+---
+
+## 🔗 Base URLs
+
+There are two base URLs one for the Test and one for the Live(Production):
+- `https://satc.live`: The base url for the test.
+- `https://system.sayaratech.com`: The base url for live(Production).
 
 ---
 
