@@ -50,7 +50,7 @@ The Customer APIs are designed to handle various customer-related functionalitie
 The General APIs provide access to a variety of services and product-related data. These endpoints are essential for fetching information about available services, products, and providers. They facilitate the process of searching and filtering products based on different criteria. There are two types of services within the General APIs: **Simple Services** and **Complex Services**. Go to General APIs from [HERE](docs/general)
 
 ### Simple Services
-Simple services are straightforward and easy to manage. They involve basic tasks that do not require intricate scheduling or multiple steps. You can find the documentation for simple services [HERE](docs/general/SimpleServices).
+Simple services are straightforward and easy to manage. They involve basic tasks that do not require a lot of work. You can find the documentation for simple services [HERE](docs/general/SimpleServices).
 
 ### Complex Services
 Complex services involve multiple steps and may require additional parameters, such as scheduling appointments or selecting specific providers. For more details on complex services, visit the [complex services documentation](docs/general/ComplexServices).

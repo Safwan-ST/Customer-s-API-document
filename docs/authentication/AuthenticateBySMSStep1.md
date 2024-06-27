@@ -18,7 +18,7 @@ https://satc.live/api/Auth/Token/AuthenticateBySMSStep1?mobileno=966548093416
 - `message` (string): A message describing the result of the operation.
 - `error` (string): An error message if the operation failed.
 - `Data` (object): An object containing the following fields:
-  - `id_step2` (string): The identifier for the second step of authentication.
+  - `id_step2` (int): The identifier for the second step of authentication.
   - `smscode` (string): The SMS code sent to the user's mobile number.
   
 **Response Example**:
